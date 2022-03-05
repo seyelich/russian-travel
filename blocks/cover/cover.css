@@ -1,0 +1,36 @@
+.cover {
+  width: 100%;
+  min-height: 720px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  background-image: url(../../images/cover-bg.jpg);
+  background-size: cover;
+}
+
+.cover:hover .cover__overlay {
+  opacity: .8;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cover {
+    gap: 16px;
+    min-height: 200px;
+    margin-top: 2px;
+  }
+}

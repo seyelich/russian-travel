@@ -1,0 +1,11 @@
+.place__paragraph-container {
+  display: flex;
+  flex-flow: column;
+  gap: 26px;
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraph-container {
+    gap: 25px;
+  }
+}

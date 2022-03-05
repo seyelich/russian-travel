@@ -1,0 +1,24 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+  .gallery {
+    gap: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .gallery {
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .gallery {
+    gap: 12px;
+  }
+}
