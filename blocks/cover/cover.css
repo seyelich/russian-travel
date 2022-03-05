@@ -1,5 +1,4 @@
 .cover {
-  width: 100%;
   min-height: 720px;
   position: relative;
   display: flex;
@@ -31,6 +30,5 @@
   .cover {
     gap: 16px;
     min-height: 200px;
-    margin-top: 2px;
   }
 }
